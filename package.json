@@ -1,6 +1,6 @@
 {
   "name": "cameldash",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Make a string in camelcase or dashcase with a list of arrays",
   "main": "build/src/main.js",
   "engines": {
