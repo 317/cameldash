@@ -11,7 +11,7 @@ export enum CaseList {
  * @param {NameType} nameType The name's type. CAMEL for camelcase, or DASH for a dashedcase.
  * @param {...string} parts ...strings as much string as needed to make the name.
  */
-export function process(caseList: CaseList, ...parts: Array<string>) {
+export function process(caseList: CaseList, ...parts: Array<string>): string {
   if (caseList === CaseList.CAMEL) {
     return makeCamel(...parts);
   }
