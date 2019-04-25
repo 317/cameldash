@@ -8,7 +8,7 @@
     "importHelpers": true,
     "jsx": "react",
     "alwaysStrict": true,
-    "sourceMap": true,
+    "sourceMap": false,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
     "noImplicitReturns": true,
@@ -18,8 +18,5 @@
     "noImplicitThis": false,
     "strictNullChecks": false
   },
-  "include": [
-    "src/**/*",
-    "__tests__/**/*"
-  ]
+  "include": ["src/**/*", "__tests__/**/*"]
 }
